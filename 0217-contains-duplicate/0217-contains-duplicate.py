@@ -6,9 +6,10 @@ class Solution(object):
         """
         
         hashSet = set()
-        
-        for n in nums: 
+
+        for n in nums:
             if n in hashSet:
-                return True
+                return True 
             hashSet.add(n)
-        return False 
+        
+        return False
